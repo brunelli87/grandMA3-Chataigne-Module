@@ -117,3 +117,23 @@ function setFreeze(onStatus) {
     local.send("/cmd", "freeze off");
   }
 }
+
+function setHighlight(onStatus) {
+  local.values.highlight.set(onStatus);
+  if(onStatus) {
+    local.send("/cmd", "HighLight on");
+  }
+  else {
+    local.send("/cmd", "HighLight off");
+  }
+}
+
+function setSolo(onStatus) {
+  local.values.solo.set(onStatus);
+  if(onStatus) {
+    local.send("/cmd", "Solo on");
+  }
+  else {
+    local.send("/cmd", "Solo off");
+  }
+}
