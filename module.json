@@ -253,6 +253,16 @@
             "ColorRGB_UV": "ColorRGB_UV",
             "Blower1": "Blower1",
             "Haze1": "Haze1"
+            "Blade1A" : "Blade1A"
+            "Blade1B" : "Blade1B"
+            "Blade2A" : "Blade2A"
+            "Blade2B" : "Blade2B"
+            "Blade3A" : "Blade3A"
+            "Blade4A" : "Blade4B"
+            "Blade4B" : "Blade4B"
+            "ShaperRot" : "ShaperRot"
+            "Iris" : "Iris"
+            "Color2": "Color2"
           }
         },
         "Multiplicator": {"type": "Float", "min":-10, "max":10, "default":1, "description":"Speed of the encoder movement, only relevant for endless encoders"},
